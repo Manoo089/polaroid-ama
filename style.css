@@ -4,12 +4,53 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    display: flex;
+    margin: 3rem auto;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+p {
+    transform: rotate(-1deg);
+}
+
 .polaroid {
-    border: 3px solid black;
-    width: 30rem;
-    height: 35rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 3px;
+    width: 70vmin;
+    height: 65vmin;
     background-image: url(alpaka.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+figure {
+    width: 90vmin;
+    height: auto;
+    border-radius: 3px;
+    text-align: center;
+    transform: rotate(-2deg);
+    box-shadow: 11.89px 12.2px 0 -10px rgba(0 0 0 /.2);
+}
+
+figcaption {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+
+/*
+img {
+    width: 55vmin;
+    height: 45vmin;
+}
+
+figure {
+    border: 5px solid black;
+    background-clip: content-box;
+}*/
